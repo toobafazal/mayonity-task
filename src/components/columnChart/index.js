@@ -36,10 +36,10 @@ const DemoColumn = () => {
       if(action === '支付订单'){
         return 'red';
       }
-      if(action === '完成交'){
-        return '#890F0D;';
+      if(action === '完成交易'){
+        return 'rgb(178, 30, 30);';
       }
-      return 'mehroon;';
+      return 'rgb(178, 30, 30);';
     },
     xAxis: {
       label: {
